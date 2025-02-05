@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+body{
+    background-color: #252B42;
+}
+header{
+    padding: 20px;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+font-size: 25px;
+font-weight: 600;
+line-height: 37.5px;
+color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: #00EEFF;
+}
+.hero h2{
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+color: white;
+}
+.hero h3{
+font-size: 56px;
+font-weight: 700;
+line-height: 72.8px;
+color: white;
+}
+.hero h4{
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+color: white;
+}
+span{
+    color: #00EEFF;
+}
+.hero{
+    margin-top: 100px;
+}
+.hero p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: white;
+}
+.hero-ota{
+    display: flex;
+    align-items: center;
+    gap: 300px;
+}
+.hero i{
+    margin-top: 50px;
+    font-size: 20px;
+    color: #00EEFF;
+    gap: 30px;
+}
+.hero i:hover{
+    transform: scale(2);
+}
+.btn{
+padding: 11px 28px;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 1px;
+color: white;
+background: none;
+box-shadow: 0px 0px 10px 0px #00EEFF;
+border: 1px solid #00EEFF;
+margin-top: 30px;
+border-radius: 40px;
+}
+.btn:hover{
+    color: #323946;
+    background-color: #00EEFF;
+}
+h2{
+margin-top: 50px;
+font-size: 45px;
+font-weight: 700;
+line-height: 67.5px;
+text-align: center;
+color: white;
+}
+.card{
+    width: 380px;
+    height: 330px;
+    background: #323946;
+    border: 2px solid #1F242D;
+    padding: 20px;
+}
+.card1{
+    width: 380px;
+    height: 330px;
+    background: #323946;
+    border: 2px solid #1F242D;
+    padding: 20px;
+}
+.card1 h3{
+font-size: 20px;
+font-weight: 700;
+line-height: 39px;
+text-align: center;
+color: white;
+}
+.card1 p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: white;
+}
+.card h3{
+font-size: 20px;
+font-weight: 700;
+line-height: 39px;
+text-align: center;
+color: white;
+}
+.card p{
+font-size: 10px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+color: white;
+}
+.btn1{
+    padding: 11px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: white;
+    background: none;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    border: 1px solid #00EEFF;
+    margin-top: 30px;
+    border-radius: 40px;
+    margin-left: 90px;
+}
+.btn1:hover{
+    color: #323946;
+    background-color: #00EEFF;
+}
+.card img{
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ota1{
+    margin-top: 150px;
+    width: 1240px;
+    height: 800px;
+    background-color: #323946;
+}
+.ota1 h4{
+font-size: 45px;
+font-weight: 700;
+line-height: 67.5px;
+text-align: center;
+color: white;
+padding-top: 50px;
+margin-bottom: 50px;
+padding: 25px;
+}
+.card-box1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+h5{
+font-size: 45px;
+font-weight: 700;
+line-height: 67.5px;
+text-align: center;
+color: white;
+margin-top: 100px;
+}
+input{
+    width: 343px;
+    height: 55px;
+    background: #323946;
+    color: #757575;
+    margin-bottom: 20px;
+    gap: 30px;
+    border: none;
+    padding: 0 10px;
+}
+.inputs{
+    margin-left:250px;
+}
+textarea{
+    width: 700px;
+    height: 280px;
+    background: #323946;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+.btn2{
+    padding: 11px 28px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: white;
+    background: none;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    border: 1px solid #00EEFF;
+    margin-top: 30px;
+    border-radius: 40px;
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.btn2:hover{
+    background-color: #00EEFF;
+    color: #252B42;
+}
+h6{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: white;
+}
+.btn4 i{
+    color: #323946;
+    font-size: 10px;
+}
+.ota3{
+    width: 1440px;
+    height: 80px;
+    background-color: #323946;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn4{
+    background-color: #00EEFF;
+    border: 1px solid #323946;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ota i{
+    font-size: 15px;
+    color: white;
+    display: none;
+}
+
+
+
+
+
+@media(max-width:800px){
+    nav{
+        display: none;
+    }
+    .ota i{
+        display: block;
+    }
+}
